@@ -1,0 +1,44 @@
+! do not scroll with output
+URxvt*scrollTtyOutput: false
+
+! scroll in relation to buffer (with mouse scroll or Shift+Page Up)
+URxvt*scrollWithBuffer: true
+
+! scroll back to the bottom on keypress
+URxvt*scrollTtyKeypress: true
+
+! Dracula Xresources palette
+*.foreground: #F8F8F2
+*.background: #282A36
+*.color0:     #000000
+*.color8:     #4D4D4D
+*.color1:     #FF5555
+*.color9:     #FF6E67
+*.color2:     #50FA7B
+*.color10:    #5AF78E
+*.color3:     #F1FA8C
+*.color11:    #F4F99D
+*.color4:     #BD93F9
+*.color12:    #CAA9FA
+*.color5:     #FF79C6
+*.color13:    #FF92D0
+*.color6:     #8BE9FD
+*.color14:    #9AEDFE
+*.color7:     #BFBFBF
+*.color15:    #E6E6E6
+
+URxvt.font: xft:Source Code Pro Light:size=10
+URxvt.scrollBar: false
+
+URxvt.perl-ext-common:  default,matcher
+URxvt.url-launcher:  /usr/bin/xdg-open
+URxvt.matcher.button:  1
+URxvt.matcher.rend.0:  Italic fg8
+
+rofi.color-enabled: true
+rofi.color-window: argb:cc2f343f, argb:cc2f343f, argb:cc2f343f
+rofi.color-normal: argb:002f343f, #d8dee8, argb:002f343f, argb:002f343f, #bf616a
+rofi.color-active: #2f343f, #b48ead, #2f343f, #2f343f, #93e5cc
+rofi.color-urgent: #2f343f, #ebcb8b, #2f343f, #2f343f, #ebcb8b
+
+
