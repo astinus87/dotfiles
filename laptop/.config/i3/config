@@ -207,7 +207,6 @@ bar {
 
 assign [class="Code"] $ws2
 
-exec firefox
 exec urxvt
 exec code
 exec compton
