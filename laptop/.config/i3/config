@@ -205,8 +205,5 @@ bar {
   }
 }
 
-assign [class="Code"] $ws2
-
 exec urxvt
-exec code
 exec compton
