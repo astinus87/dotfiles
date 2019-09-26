@@ -205,5 +205,4 @@ bar {
   }
 }
 
-exec urxvt
 exec compton
