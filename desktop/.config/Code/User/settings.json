@@ -1,0 +1,35 @@
+{
+// Turn off autocomplete in Visual Studio Code
+// http://code.visualstudio.com/
+
+// Add the following lines to user settings
+
+    // OPTIONAL WORD WRAPPING
+    // Controls if lines should wrap. The lines will wrap at min(editor.wrappingColumn, viewportWidthInColumns).
+    "editor.wordWrap": "off",
+
+    // TURN OFF AUTOCOMPLETION
+    // Controls if quick suggestions should show up or not while typing
+    "editor.quickSuggestions": false,
+
+    // Controls the delay in ms after which quick suggestions will show up
+    "editor.quickSuggestionsDelay": 90,
+
+    // Controls if the editor should automatically close brackets after opening them
+    "editor.autoClosingBrackets": "never",
+    
+    // Controls if the editor should automatically format the line after typing
+    "editor.formatOnType": false,
+
+    // Controls if suggestions should automatically show up when typing trigger characters
+    "editor.suggestOnTriggerCharacters": false,
+
+    // Controls if suggestions should be accepted 'Enter' - in addition to 'Tab'. Helps to avoid ambiguity between inserting new lines or accepting suggestions.
+    "editor.acceptSuggestionOnEnter": "off",
+    "window.zoomLevel": 0,
+    "cmake.configureOnOpen": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "window.menuBarVisibility": "toggle",
+    "editor.tabSize": 2,
+    "editor.autoClosingQuotes": "never"
+}
