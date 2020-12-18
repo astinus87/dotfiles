@@ -1,7 +1,6 @@
 #!/bin/sh
 
-xrandr --setprovideroutputsource modesetting NVIDIA-0
-xrandr --auto
+setxkbmap -option compose:ralt
 
 xrdb ~/.Xresources
 exec i3
